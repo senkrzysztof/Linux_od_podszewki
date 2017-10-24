@@ -1,0 +1,10 @@
+6--
+awk 'BEGIN{ srand(); for(i=0; i<6 ;i++) print int(1+rand()*100)}'
+7--
+awk 'NR % 2' plik
+8--
+sed 4d plik
+9--
+sed -nr '/ha/p' plik
+10--
+sed '5,$d' plik
